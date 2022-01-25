@@ -30,7 +30,7 @@
   
 .nav { 
   grid-area: nav; 
-  background-color: #226CE0;
+  background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
 }
     
 .tituloPrincipal{
@@ -57,6 +57,12 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: oblique;
   margin: 0px 0px 30px 30px;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.inicio:hover, .heroes:hover{
+  transform: scale(1.5);
 }
 
 a{
@@ -204,6 +210,12 @@ a{
 .foto1, .foto2, .foto3{
   width: 500px;
   height: 300px;
+  transition-property: all;
+  transition-duration: 2s;
+}
+
+.foto1:hover, .foto2:hover, .foto3:hover{
+  transform: scale(1.5);
 }
 
 .item4{ 
@@ -252,6 +264,12 @@ video{
 .icon1, .icon2, .icon3, .icon4{
   width: 300px;
   height: 300px;
+  transition-property: all;
+  transition-duration: 2s;
+}
+
+.icon1:hover, .icon2:hover, .icon3:hover, .icon4:hover{
+  transform: scale(1.5);
 }
 
 .itemHeroes4{
